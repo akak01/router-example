@@ -26,6 +26,9 @@ function App() {
         <Route path="/" render={() => <h1>Page not found</h1>} />
         {/* <Redirect to="/" /> */}
       </Switch>  
+
+      <Route path="/about/personal" render={() => } />
+      <Route path="/about/business" render={About} />
     </div>
   );
 }
